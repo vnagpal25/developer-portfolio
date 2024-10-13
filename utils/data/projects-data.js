@@ -4,46 +4,36 @@ import realEstate from '/public/image/real-estate.jpg';
 import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: 'Aqua Sense - A Water Quality Assessment Chatbot',
+    description: "Water quality assesment is a crucial issue in the fields of public health and environmental science. Knowing the contaminant and chemical nature of water found in wells, springs, streams, rivers, and other bodies of water is key in determining the potability of water.To tackle this problem, I decided to pursue a project that can answer questions like 'How safe is the water from (insert desired outdoorwater source) to drink?'. My program pulls real-time data from the United States Geological Survey(USGS) via their REST API. It makes a decision using an RBF-based approach based on various measured quantities like pH, Dissolved Oxygen, Turbidity, Temperature, and specific conductance to determine the potability of water as a percentage. I implemented natural language processing(NLP) techniques using tools like Rasa, BERT, and NLTK to allow for natural conversation between the chatbot and the user. I also implemented the decision making feature behind my chatbot by training a Support Vector Machine classification model that decided if water was potable or not as a confidence from 0 to 1",
+    tools: ['Python', 'RASA Chatbot', 'USGS API', 'NLP', 'Supervised ML', ],
+    role: '[Data Engineer, Software Engineer, ML Engineer] ',
+    code: 'https://github.com/vnagpal25/Water-Quality-Chatbot',
+    demo: '',
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: 'Learning Management System(LMS) for Programming Languages',
+    description: 'In a world where automation and technology are becoming increasingly ubiquitous, having the knowledge of a programming knowledge can be extremely beneficial to further people\'s career options.For this reason, with a team of peers, I embarked on creating a Learning Management System(LMS) that provides prospective students and teachers alike an interface through which they can learn a new programming language(Python or JavaScript). We implemented our command-line based interface for the LMS in Java, using object-oriented principles and following the SCRUM methodology to track our sprint progress. I was primarily responsible for back-end development; I had to write code for the LMS to seamlessly load and save necessary data regarding grades, classes, and course content in JSON format. This project was extremely beneficial in teaching me about the Software Development Life Cycle.',
+    tools: ['Java', 'Python', 'JavaScript', 'SCRUM', 'Software Dev. Life Cycle (SDLC)', ],
+    code: 'https://github.com/vnagpal25/Waterboys_LMS',
+    role: 'Back End Developer',
+    demo: '',
+    image: realEstate,
+  },
+  {
+    id: 3,
+    name: 'Nerdle',
+    description: "I have a fascination for puzzles and solving them, particulary the well known game Wordle by New York Times. With this project, I decided to recreate Wordle, and called it \"Nerdle\" (courtesy of my brother Neil). I took it as an opportunity to teach myself the basics of web application development, utilizing JavaScript/HTML/CSS. I also wrote the game originally as a command-line based interface in Java(I called it Vordle, as my name starts with V) to familiarize myself with the game mechanics. I utilized data structures like dictionaries, trees, and tries as well as many algorithms to correctly implement the game logic. This project was particularly instrumental in showing me the ropes to Web Development.",
+    tools: ['Vanilla JS', 'Java', 'HTML/CSS',],
+    code: 'https://github.com/vnagpal25/Nerdle',
+    demo: '',
+    image: ayla,
+    role: 'Front End Developer',
+  }
 ];
 
 
