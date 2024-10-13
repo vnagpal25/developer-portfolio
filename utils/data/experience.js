@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
-  },
+    title: "Undergraduate Research Assistant",
+    company: "University of South Carolina AI 4 Society (AI4S) Group",
+    duration: "(Spring 2024 - Present)"
+  }, 
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: 'Software Engineer Intern',
+    company: "Blue Cross Blue Shield of South Carolina",
+    duration: "(May 2024 - August 2024)"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: "Undergraduate Research Assistant",
+    company: "University of South Carolina Systems Research on X (SyReX) Group",
+    duration: "(Fall 2022 - Spring 2024)"
   }
 ]
